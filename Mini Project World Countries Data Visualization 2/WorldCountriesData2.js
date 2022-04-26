@@ -466,3 +466,9 @@ for(country of countries){
     a.appendChild(d);
     outputBox.appendChild(a);
 };
+
+$(window).on("load",function(){
+    $(".loader-container").fadeOut(500,function(){
+        $(this).remove();
+    });
+});

@@ -7,9 +7,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Countries Data Visualization 1</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./cssanimation.min.css">
     <style>
 
         .loader-container{
@@ -23,7 +23,7 @@
             z-index: 4000;
         }
         .loader {
-			--color: #895be6;
+			--color: #eddfde;
 			--size-mid: 6vmin;
 			--size-dot: 1.5vmin;
 			--size-bar: 0.4vmin;
@@ -83,42 +83,25 @@
 </head>
 <body>
     <div class="box">
-        <div class="outer-box">
-            <div class="input-outer-box">
-
+        <span class="name">Htet Paing Kyaw</span>
+        <div class="highlight-box">
+            <span class="highlight1">📔</span>
+            <div class="highlight2">
+                <span>Content Creator</span>
             </div>
-            <div class="input-inner-box">
-                <h1 class="title">World Countries List</h1>
-                <div class="text-box">
-                    <span class="total-countries"></span>
-                </div>
-                <div class="btn-box">
-                    <div class="btn btnA btn-left">
-                        <span class="btn-text">Starting word</span>
-                    </div>
-                    <div class="btn btnA btn-center">
-                        <span class="btn-text">Search with any word</span>
-                    </div>
-                    <div class="btn btnA btn-right icon1" onclick="show2()">
-                        <i class="fa-solid fa-arrow-down-a-z icon-text"></i>
-                    </div>
-                    <div class="btn btnA btn-right icon2 hide" onclick="show1()">
-                        <i class="fa-solid fa-arrow-up-a-z icon-text"></i>
-                    </div>
-                </div>
-                <div class="input-box">
-                    <input type="text" class="input" placeholder="Search country...">
-                    <i class="fa-solid fa-magnifying-glass input-icon"></i>
-                </div>
-            </div>       
         </div>
-        <div class="outer-output-box">
-            <div class="output-box">
-
-            </div>
+        <div class="text-box">
+            <p class="text">
+                I am Htet Paing Kyaw.I am a professional web designer and developer. Experience in the web design field for about 1 year. Expert in prototype, web designs, and fully responsive.I know HTML, CSS, JavaScript, Bootstrap and JQuery.Some mini projects are as below...
+            </p>
+        </div>
+        <div class="projects">
+            <a class="project project1" href="https://imaginative-croquembouche-af754a.netlify.app/" target="_blank">Calculate a weight of an object on a planet</a>
+            <a class="project project2" href="https://timely-fairy-ff9649.netlify.app/" target="_blank">World Countries Data Visualization 1</a>
+            <a class="project project3" href="https://delicate-beignet-5d3931.netlify.app/" target="_blank">World Countries Data Visualization 2</a>
         </div>
     </div>
     <script src="./jquery.min.js"></script>
-    <script src="./WorldCountriesData2.js"></script>
+    <script src="./portfolio.js"></script>
 </body>
 </html>

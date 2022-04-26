@@ -3035,3 +3035,9 @@ btnRight.addEventListener('click', el => {
     output.classList.add('show');
     btnBoxText.innerText = '10 Most Spoken languages in the world';
 });
+
+$(window).on("load",function(){
+    $(".loader-container").fadeOut(500,function(){
+        $(this).remove();
+    });
+});
