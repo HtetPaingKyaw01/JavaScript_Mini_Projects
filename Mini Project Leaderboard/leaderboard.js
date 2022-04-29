@@ -364,3 +364,8 @@ $('.output-box').delegate('.btn3','click',function(){
     arrc();
 });
 
+$(window).on("load",function(){
+    $(".loader-container").fadeOut(500,function(){
+        $(this).remove();
+    });
+});
