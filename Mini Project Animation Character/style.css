@@ -15,6 +15,21 @@ body{
 .box{
     width: 100%;
     height: 100%;
-    background-color: yellow;
     padding: 50px;
+}
+
+.text{
+    animation: ani 2s linear;
+    font-size: 75px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+@keyframes ani{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
